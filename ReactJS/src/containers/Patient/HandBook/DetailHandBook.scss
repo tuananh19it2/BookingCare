@@ -1,0 +1,125 @@
+.section-detail-handbook {
+    height: auto !important;
+
+    .detail-handbook-header {
+        height          : 32px;
+        width           : 100%;
+        background-color: #f6f6f6;
+
+        .section-container {
+            .hagtag {
+                list-style   : none;
+                margin       : 0;
+                padding      : 5px 10px;
+                border-bottom: 1px solid #eee;
+                color        : #45c3d2;
+                font-size    : 13px;
+                cursor       : pointer;
+
+                .icon-home {
+                    color     : #45c3d2;
+                    border    : none;
+                    background: transparent;
+                    box-shadow: none;
+                    outline   : none;
+                }
+
+                span::before {
+                    content: " / ";
+                    color  : #ccc;
+                    padding: 0 7px;
+                }
+            }
+        }
+    }
+
+    .section-container {
+        .detail-handbook-body {
+            display: flex;
+
+            .content-left-detail-handbook {
+                width: 100%;
+
+                .detail-handbook-name {
+                    font-size  : 24px;
+                    color      : #333;
+                    font-weight: bold;
+                    margin     : 15px 0;
+                    line-height: 1.3;
+                }
+
+                .descriptionHTML {
+                    margin-left: 35px;
+                }
+
+                img {
+                    width : 100% !important;
+                    height: auto;
+                }
+
+                p,
+                h1,
+                h3,
+                h5,
+                li {
+                    text-decoration: unset;
+                    text-align     : justify;
+                    margin-right   : 45px;
+                    font-size      : 18px;
+                }
+            }
+
+            .content-right-detail-handbook {
+                display    : none;
+                margin-left: 5px;
+            }
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    .detail-handbook-name {
+        font-size: 32px !important;
+    }
+
+    .content-left-detail-handbook {
+        width: 78% !important;
+    }
+
+    .content-right-detail-handbook {
+        width       : 22%;
+        display     : block !important;
+        margin-right: 35px;
+        text-align  : justify;
+
+        .content-right-child {
+            padding-right: 40px !important;
+
+            h1 {
+                font-weight: bolder;
+                color      : #444;
+                font-size  : 16px;
+                padding    : 10px 0;
+            }
+
+            ul {
+                font-size: 14px;
+            }
+
+            p,
+            h3,
+            h5 {
+                text-decoration: unset;
+                text-align     : justify;
+                margin-right   : 45px;
+                cursor         : pointer;
+            }
+
+            a {
+                color          : #45c3d2;
+                text-decoration: unset;
+            }
+        }
+
+    }
+}

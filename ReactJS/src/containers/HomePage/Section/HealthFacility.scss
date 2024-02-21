@@ -1,0 +1,13 @@
+.health-facility-child {
+    cursor: pointer;
+
+    .health-facility-name {
+        padding   : 10px 0;
+        text-align: center;
+
+        &:hover {
+            color: #45c3d2;
+        }
+
+    }
+}

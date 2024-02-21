@@ -1,0 +1,88 @@
+.window-content-clinic {
+    .content-header-clinic {
+        overflow   : auto;
+        padding    : 20px 60px 0px;
+        padding-top: 80px;
+
+        .hagtag-clinic {
+            list-style: none;
+            margin    : 0;
+            padding   : 5px 0px;
+            font-size : 16px;
+            cursor    : pointer;
+
+            .icon-home {
+                border    : none;
+                background: transparent;
+                box-shadow: none;
+                outline   : none;
+                color     : #45c3d2;
+            }
+
+            span::before {
+                content: " / ";
+                color  : #ccc;
+                padding: 0 7px;
+            }
+        }
+
+        .content-name-header-clinic {
+            margin       : 20px 0px;
+            color        : #000000;
+            font-size    : 24px;
+            font-weight  : 600;
+            border-bottom: 1px solid #778899;
+        }
+    }
+
+    .list-clinic-content {
+        display  : flex;
+        flex-wrap: wrap;
+
+        .list-clinic {
+            width     : 25%;
+            padding   : 10px;
+            box-sizing: border-box;
+
+            .item-clinic {
+                display        : flex;
+                flex-direction : column;
+                align-items    : center;
+                justify-content: center;
+                padding-top    : 30px;
+
+                &:hover {
+                    cursor: pointer;
+                }
+
+                .image-clinic {
+                    height             : 150px;
+                    width              : 270px;
+                    background-position: center center;
+                    background-repeat  : no-repeat;
+                    object-fit         : cover;
+                    background-size    : contain;
+                    padding            : inherit;
+                    background-color   : #fff;
+                    box-shadow         : 0 1px 6px #20212447;
+                    border-radius      : 5px;
+                }
+
+                .name {
+                    font-size      : 16px;
+                    color          : rgb(40, 49, 63);
+                    padding-top    : 10px;
+                    font-weight    : 700;
+                    display        : flex;
+                    text-align     : center;
+                    justify-content: center;
+                    width          : 270px;
+
+                    &:hover {
+                        color: #45c3d2;
+                    }
+                }
+            }
+        }
+    }
+}

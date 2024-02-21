@@ -1,0 +1,124 @@
+.section-about-content {
+    .content-left-about {
+        .video {
+            width : 456px;
+            height: 320px;
+            cursor: pointer;
+        }
+    }
+
+    .content-right {
+        display       : block;
+        overflow-x    : scroll;
+        white-space   : nowrap;
+        padding-bottom: 10px;
+        margin-top    : 10px;
+        text-align    : center;
+
+        ul {
+            list-style: none;
+            margin    : 0;
+            padding   : 0;
+
+            li {
+                display      : inline-block;
+                height       : 50px;
+                min-width    : 50px;
+                background   : #fff;
+                border-radius: 5px;
+
+                a {
+                    color          : #45c3d2;
+                    text-decoration: none;
+
+                    .ds-logo {
+                        background-position: center center;
+                        background-repeat  : no-repeat;
+                        display            : inline-block;
+                        border-radius      : 5px;
+                    }
+
+                    .logo4 {
+                        width          : 162px;
+                        height         : 50px;
+                        background-size: 142px 30px;
+                    }
+
+                    .logo {
+                        width          : 106px;
+                        height         : 50px;
+                        background-size: 86px 30px !important;
+                    }
+
+                    .logo2 {
+                        width          : 127px;
+                        height         : 50px;
+                        background-size: 107px 30px;
+                    }
+
+                    .logo5 {
+                        width          : 183px;
+                        height         : 50px;
+                        background-size: 163px 30px;
+                    }
+
+                    .logo9 {
+                        width           : 151px;
+                        height          : 50px;
+                        background-size : 131px 30px;
+                        background-color: #a3171e;
+                    }
+
+                    .logo1 {
+                        width          : 127px;
+                        height         : 50px;
+                        background-size: 107px 40px;
+                    }
+
+                    .logo6 {
+                        width          : 129px;
+                        height         : 50px;
+                        background-size: 109px 30px;
+                    }
+
+                    .logo7 {
+                        width           : 96px;
+                        height          : 50px;
+                        background-size : 76px 25px;
+                        background-color: #16325C;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .video {
+        width : 570px !important;
+        height: 320px !important;
+    }
+
+    .content-right {
+        white-space: normal !important;
+        overflow-x : auto !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .section-about {
+        height: 440px !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .content-left-about {
+        width: 50%;
+        float: left;
+    }
+
+    .content-right {
+        width: 50%;
+        float: left;
+    }
+}

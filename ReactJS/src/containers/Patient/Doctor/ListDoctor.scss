@@ -1,0 +1,87 @@
+.window-doctor {
+    .window-container {
+
+        .window-header {
+            position: fixed;
+            z-index : 999;
+            width   : 100%;
+        }
+
+        .window-content {
+            overflow   : auto;
+            padding-top: 80px;
+
+            .content-header {
+                margin: 20px 160px 0px;
+
+                .hagtag {
+                    list-style   : none;
+                    margin       : 0;
+                    padding      : 5px 10px;
+                    border-bottom: 1px solid #778899;
+                    font-size    : 16px;
+                    cursor       : pointer;
+
+                    .icon-home {
+                        border    : none;
+                        background: transparent;
+                        box-shadow: none;
+                        outline   : none;
+                        color     : #45c3d2;
+                    }
+
+                    span::before {
+                        content: " / ";
+                        color  : #ccc;
+                        padding: 0 7px;
+                    }
+                }
+
+                .content-name-header {
+                    margin   : 20px 0px;
+                    color    : #000000;
+                    font-size: 20px;
+                }
+            }
+
+            .list-doctor {
+                display      : flex;
+                padding      : 15px;
+                margin-left  : 145px;
+                border-bottom: 1px solid #eee;
+                position     : relative;
+
+                &:hover {
+                    color : #337ab7;
+                    cursor: pointer;
+                }
+
+                .image-doctor {
+                    width           : 105px;
+                    height          : 105px;
+                    background-size : cover;
+                    background-color: #eee;
+                }
+
+                .name {
+                    padding-top: 20px;
+                    margin-left: 10px;
+                    color      : #000000;
+
+                    p {
+                        font-size: 16px Montserrat, sans-serif;
+
+                        &:hover {
+                            color : #337ab7;
+                            cursor: pointer;
+                        }
+                    }
+
+                    span {
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+}

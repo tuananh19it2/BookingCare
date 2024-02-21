@@ -1,0 +1,124 @@
+{
+  "homeheader": {
+    "speciality": "medical specialty",
+    "searchdoctor": "Find a doctor by specialty",
+    "health-facility": "Health facilities",
+    "select-room": "Choose hospital clinic",
+    "doctor": "Doctor",
+    "select-doctor": "Choose a good doctor",
+    "select-handbook": "Good handbook for you",
+    "support": "Support",
+    "welcome": "Welcome, "
+  },
+
+  "banner": {
+    "title1": "MEDICAL PLATFORM",
+    "title2": "COMPREHENSIVE HEALTH CARE",
+    "child1": "Specialized examination",
+    "child2": "Remote examination",
+    "child3": "General examination",
+    "child4": "Medical test",
+    "child5": "Mental health",
+    "child6": "Dental examination",
+    "placeholder": "Find a medical specialty"
+  },
+  "menu": {
+    "admin": {
+      "manage-user": "Users System",
+      "manage-doctor": "Manage doctor",
+      "manage-admin": "Manage admin",
+      "crud": "CRUD user",
+      "crud-redux": "CRUD redux",
+      "clinic": "Clinics",
+      "manage-clinic": "Manage Clinic",
+      "specialty": "Specialty",
+      "manage-specialty": "Manage specialized",
+      "handbook": "Handbook",
+      "manage-handbook": "Manage handbook",
+      "introduction": "Introduction",
+      "manage-introduction": "Manage-introduction"
+    },
+    "doctor": {
+      "manage-schedule": "Manage Doctor's schedule",
+      "manage-patient": "Manage Doctor's patient"
+    }
+  },
+  "manage-user": {
+    "add": "Add a new user",
+    "email": "Email",
+    "password": "password",
+    "first-name": "First name",
+    "last-name": "Last name",
+    "phone-number": "Phone number",
+    "address": "Address",
+    "gender": "Gender",
+    "position": "Position",
+    "role": "Role",
+    "image": "Avatar",
+    "save": "Save user",
+    "edit": "Edit user"
+  },
+  "homepage": {
+    "outstanding-doctor": "Outstanding Doctor of the Week",
+    "recommend-doctor": "Recommend doctors just for you",
+    "more-info": "SEE MORE",
+    "specialty-popular": "Popular specialties",
+    "health-facility": "Outstanding medical facility",
+    "handbook": "HankBook",
+    "about": "Science and technology to support medical services",
+    "b": "Application of science and technology in medical examination and treatment",
+    "p": "Over the years, Vietnam's health sector has achieved encouraging achievements in all fields of medical examination and treatment. From the investment and application of high-tech equipment and techniques such as: laparoscopic surgery, lithotripsy, surgery to remove the vitreous outside the capsule (Pha-co method) to microsurgery techniques to create imaging, application of laser technology in medicine, accelerators in cancer treatment. Success of in vitro fertilization; Successfully applied many interventional cardiology techniques such as: open heart surgery, heart valve replacement, chamber angiography, coronary angioplasty, coronary artery bypass grafting, arrhythmia treatment, etc. Most recently, the initial success of the first brain dead liver transplant in Vietnam, at Viet Duc Hospital, has given hope to critically ill patients..."
+  },
+  "manage-schedule": {
+    "title": "Manage doctor's examination plan",
+    "choose-doctor": "Select Doctor",
+    "choose-date": "Select Date",
+    "save": "Save information"
+  },
+  "patient": {
+    "detail-doctor": {
+      "schedule": "SCHEDULE",
+      "no-schedule": "The doctor does not have an appointment during this time, please choose another time!",
+      "choose": "Choose",
+      "book-free": "and book (free)"
+    },
+    "extra-info-doctor": {
+      "text-address": "Clinic's address",
+      "price": "PRICE: ",
+      "detail": "See details",
+      "payment": "The hospital can pay by cash and swipe card: ",
+      "hide": "Hide price list"
+    },
+    "booking-modal": {
+      "title": "Information to book a medical appointment",
+      "fullname": "FullName",
+      "phonenumber": "Phone number",
+      "email": "Email address",
+      "address": "Address",
+      "reason": "Reasons for medical examination",
+      "birthday": "Date of birth",
+      "gender": "Gender",
+      "confirm": "Confirm",
+      "close": "Cancel",
+      "pricebooking": "Free booking",
+      "price": "PRICE: "
+    }
+  },
+  "admin": {
+    "manage-doctor": {
+      "title": "Create more doctor information",
+      "select-doctor": "Choose a doctor",
+      "intro": "Introduction information:",
+      "save": "Save information",
+      "add": "Create information",
+      "price": "Price",
+      "payment": "Payment methods",
+      "province": "Province",
+      "nameClinic": "Clinic's name",
+      "addressClinic": "Clinic's address",
+      "note": "Note",
+      "specialty": "Choose a specialty",
+      "clinic": "Choose a clinic"
+    }
+  }
+}

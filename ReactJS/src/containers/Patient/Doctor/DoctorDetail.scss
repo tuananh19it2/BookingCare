@@ -1,0 +1,108 @@
+.section-detail-doctor {
+    height: auto !important;
+
+    .intro-doctor {
+        padding: 25px 0px;
+
+        .section-container {
+            .intro-doctor-content {
+                display: flex;
+
+                .content-left-intro-doctor {
+                    background-size  : cover;
+                    background-repeat: no-repeat;
+                    min-width        : 100px;
+                    height           : 100px;
+                    border-radius    : 50%;
+                }
+
+                .content-right-intro-doctor {
+                    padding-left: 15px;
+
+                    .up-content-right {
+                        font-size    : 18px;
+                        line-height  : 1.2;
+                        margin       : 0px;
+                        padding      : 0px;
+                        margin-bottom: 5px;
+                        font-weight  : bold;
+                        color        : #333;
+                    }
+
+                    .down-content-right {
+                        padding-top: 10px;
+                        color      : #555;
+                        font-size  : 13px;
+                    }
+                }
+            }
+        }
+    }
+
+    .schedule-doctor {
+        .section-schedule-doctor {
+            padding-left : 0px !important;
+            padding-right: 0px !important;
+            min-height   : 20vh;
+
+            .content-left-schedule-doctor {
+                border-bottom: 1px solid #eee;
+            }
+
+            .content-right-schedule-doctor {
+                padding-top   : 10px;
+                padding-bottom: 10px;
+            }
+        }
+    }
+
+    .detail-info-doctor {
+        border-top      : 1px solid #ddd;
+        border-bottom   : 1px solid #ddd;
+        background-color: #f9f9f9;
+        padding         : 15px 0;
+        text-align      : justify;
+
+        h1,
+        h2,
+        h3 {
+            font-size  : 16px;
+            font-weight: bold;
+        }
+
+        ul {
+            color: #000000;
+            font : 14px/1.5 'Montserrat', sans-serif;
+        }
+    }
+
+    .comment-doctor {
+        padding: 10px 100px;
+    }
+}
+
+@media (min-width: 768px) {
+    .content-left-intro-doctor {
+        min-width: 120px !important;
+        height   : 120px !important;
+    }
+
+    .section-schedule-doctor {
+        display: flex;
+
+        .content-left-schedule-doctor {
+            width        : 55%;
+            float        : left;
+            border-bottom: none !important;
+        }
+
+        .content-right-schedule-doctor {
+            width       : 45%;
+            float       : left;
+            padding-left: 20px;
+            border-top  : none;
+            padding-top : 10px;
+            border-left : 1px solid #eee;
+        }
+    }
+}

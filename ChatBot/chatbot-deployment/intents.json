@@ -1,0 +1,80 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Xin chào",
+        "Chào bạn!",
+        "Chào Medi!"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Xin chào, tôi có thể giúp gì cho bạn?",
+        "Chào bạn!",
+        "Chào mừng bạn đến với Medi, tôi có thể giúp gì cho bạn?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Tạm biệt", "Hẹn gặp lại"],
+      "responses": [
+        "Hẹn gặp lại",
+        "Chúc bạn một ngày tốt lành",
+        "Tạm biệt! Mong bạn trở lại một ngày sớm nhất."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Cảm ơn", "Cảm ơn nhiều"],
+      "responses": ["Không có gì, chúng bạn một ngày vui vẻ!", "Nếu có bất kì vấn đề gì, hãy liên hệ chúng tôi!"]
+    },
+    {
+      "tag": "đặt lịch hẹn trực tuyến",
+      "patterns": [
+      "Làm thế nào để đặt lịch hẹn với bác sĩ trực tuyến?",
+      "Làm thế nào để lên lịch hẹn y tế trực tuyến?",
+      "Ở đâu có thể đặt hẹn với bác sĩ trực tuyến đáng tin cậy?",
+        "Đặt lịch hẹn khám bệnh"
+      ],
+      "responses": [
+      "Để đặt hẹn với bác sĩ trực tuyến, bạn có thể truy cập vào trang web của chúng tôi và điền vào biểu mẫu đặt hẹn. Chúng tôi sẽ xác nhận hẹn của bạn qua email hoặc tin nhắn văn bản.",
+      "Bạn có thể truy cập Medi để được tư vấn và đặt hẹn với bác sĩ."
+      ]
+    },
+    {
+      "tag": "cung cấp thông tin",
+      "patterns": [
+      "Thông tin nào tôi cần cung cấp khi đặt hẹn y tế trực tuyến?",
+      "Tôi cần cung cấp thông tin gì để lên lịch hẹn với bác sĩ?",
+      "Tôi cần cung cấp thông tin gì khi muốn đặt hẹn y tế trực tuyến?"
+      ],
+      "responses": [
+      "Để đặt hẹn y tế trực tuyến, bạn cần cung cấp thông tin như tên của bạn, số điện thoại, email, bác sĩ bạn muốn gặp, ngày và giờ mong muốn, và bất kỳ yêu cầu hẹn hò liên quan nào khác.",
+      "Để lên lịch hẹn với bác sĩ trực tuyến, bạn sẽ phải cung cấp thông tin như tên của bạn, số điện thoại, email, bác sĩ bạn muốn gặp, ngày và giờ mong muốn, cùng với bất kỳ yêu cầu khác liên quan đến hẹn hò."
+      ]
+    },
+    {
+      "tag": "lựa chọn bác sĩ",
+      "patterns": [
+      "Làm thế nào để tôi chọn bác sĩ phù hợp cho cuộc hẹn?",
+      "Làm thế nào để biết một bác sĩ có tốt hay không?",
+      "Các bác sĩ có uy tín không?"
+      ],
+      "responses": [
+      "Chúng tôi cung cấp thông tin về các bác sĩ và chuyên môn của họ trên trang web của chúng tôi. Bạn có thể tham khảo và chọn một bác sĩ phù hợp với nhu cầu của bạn. Nếu bạn có bất kỳ yêu cầu đặc biệt hoặc câu hỏi nào, vui lòng liên hệ với chúng tôi để được hỗ trợ thêm."
+      ]
+    },
+    {
+      "tag": "hủy hẹn",
+      "patterns": [
+      "Tôi có thể hủy hoặc thay đổi một cuộc hẹn đã đặt trước không?",
+      "Có thể tôi hủy hoặc thay đổi một cuộc hẹn đã được lên lịch trước không?",
+        "toi co the huy cuoc hen duoc khong"
+      ],
+      "responses": [
+      "Để hủy hoặc thay đổi một cuộc hẹn đã đặt trước, vui lòng liên hệ với chúng tôi qua số điện thoại hoặc email được cung cấp trên trang web. Chúng tôi sẽ hỗ trợ bạn trong quá trình này.",
+      "Có, bạn có thể hủy hoặc thay đổi một cuộc hẹn đã được lên lịch trước. Để làm điều này, bạn cần liên hệ với nhà cung cấp dịch vụ hoặc cơ sở y tế để thông báo về việc hủy hoặc thay đổi. Thường có một chính sách hủy hoặc đổi lịch bạn cần tuân thủ, nhưng việc thông báo sớm càng tốt để sắp xếp cho người khác hoặc điều chỉnh lịch trình của bác sĩ."
+        ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+.section-introduction {
+    padding-top: 30px;
+    min-height : 420px;
+
+    .section-container {
+        .section-body {
+            .introduction-child {
+                margin-right: 20px;
+                width       : 247px !important;
+
+                a {
+                    text-decoration: none;
+                }
+
+                .section-introduction-img {
+                    height       : 130px !important;
+                    border-radius: 5px;
+                }
+
+                .introduction-name {
+                    color      : #444;
+                    font-style : inherit;
+                    font-weight: 400;
+                }
+
+                .btn-introduction {
+                    background    : transparent;
+                    border        : 1px solid transparent;
+                    font-weight   : bold;
+                    color         : #45c3d2;
+                    text-transform: uppercase;
+                    padding       : 0;
+                    font-size     : 12px;
+                    text-overflow : ellipsis;
+                    white-space   : nowrap;
+                    overflow      : hidden;
+                }
+            }
+        }
+    }
+
+    .slick-prev {
+        display: none !important;
+    }
+
+    .slick-next {
+        display: none !important;
+    }
+}
